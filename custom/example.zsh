@@ -1,4 +1,5 @@
 # Put files in this folder to add your own custom functionality.
+#
 # See: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization
 # 
 # Files in the custom/ directory will be:
@@ -10,3 +11,8 @@
 # 
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
+
+export PATH=$PATH:~/.local/bin
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
