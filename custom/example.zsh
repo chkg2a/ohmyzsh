@@ -13,7 +13,8 @@
 # cd $brainstormr
 alias ocd="cd ~/.local/share/obsidian_ChK/ChK"
 alias cfa="nvim ~/.oh-my-zsh/custom/example.zsh"
-alias cfz="~/.zshrc"
+alias cfz="nvim ~/.zshrc"
+alias cfx="nvim ~/.xinitrc"
 alias cfn="nvim ~/.config/nvim/lua/custom/plugins.lua"
 alias n="nvim"
 # alias vim="nvim"
