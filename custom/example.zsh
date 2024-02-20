@@ -11,14 +11,16 @@
 # 
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
-alias ocd="cd ~/.local/share/obsidian_ChK/ChK"
+
 alias cfa="nvim ~/.oh-my-zsh/custom/example.zsh"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
+alias cfd="cd obsidian_ChK; nvim ~/.local/share/obsidian_ChK/dailies/$(date +%F).md"
 alias cfn="nvim ~/.config/nvim/lua/custom/plugins.lua"
 alias gapp="git add -A && git commit -m 'updated' && git push"
 alias n="nvim"
-# alias vim="nvim"
+alias vim="nvim"
+alias z="zathura"
 alias cat="bat"
 alias s="sxiv"
 alias sl="lsd"
