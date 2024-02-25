@@ -30,12 +30,5 @@ alias sdn="shutdown now"
 alias bty="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias clock-tui="tclock"
 alias stopwatch="tclock --size 2 -c LightRed stopwatch"
- 
-export OPENAI_API_KEY="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"
-export DENO_INSTALL="/home/xrenne/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-export MONGODB_PASS=6fDUsAsCltbupVNd
-export PATH=$PATH:~/.local/bin
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+
+source env.zsh
