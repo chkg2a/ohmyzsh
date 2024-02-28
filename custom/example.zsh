@@ -31,4 +31,4 @@ alias bty="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias clock-tui="tclock"
 alias stopwatch="tclock --size 2 -c LightRed stopwatch"
 
-source env.zsh
+source "/home/xrenne/.oh-my-zsh/custom/env.zsh"
