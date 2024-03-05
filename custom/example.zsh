@@ -12,6 +12,7 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 
+alias f="fzf | xargs nvim"
 alias cfa="nvim ~/.oh-my-zsh/custom/example.zsh"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
