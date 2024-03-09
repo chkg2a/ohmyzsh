@@ -13,7 +13,7 @@
 # cd $brainstormr
 
 alias del="find . -type f -cmin -1"
-alias f="fzf | xargs nvim"
+alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -500' | xargs nvim"
 alias cfa="nvim ~/.oh-my-zsh/custom/example.zsh"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
